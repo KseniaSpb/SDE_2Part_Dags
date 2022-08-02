@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
-from beeline.airflow.hashicorp_vault.VaultOperator import VaultOperator
+from ######## import VaultOperator
 from airflow.operators.dummy_operator import DummyOperator
 import pendulum
 
